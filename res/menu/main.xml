@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/results"
+        android:title="@string/see_results">
+    </item>
+    <item
+        android:id="@+id/item_close"
+        android:title="@string/close_game">
+    </item>
+</menu>

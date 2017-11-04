@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="username">Username</string>
+    <string name="name_label">"Username: "</string>
+    <string name="start_game">"Play!"</string>
+    <string name="No_Username">"Username is Required"</string>
+    
+    <string name="touchToStart">"1. Touch the screen to start!"</string>
+    
+    <string name="Wins">"Won"</string>
+    <string name="Lost">"Lost"</string>
+    
+    <string name="new_game">"New Game"</string>
+    <string name="score_save">"Save Metrics"</string>
+    <string name="close">"Close"</string>
+    <string name="Mettrics_added_locally">"Metrics saved"</string>
+    <string name="totalScore">"Total Score: "</string>
+    
+    <string name="close_game">"Close"</string>
+    <string name="see_results">"See Results!"</string>
+
+</resources>

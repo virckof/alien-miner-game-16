@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" 
+    android:gravity="center"
+    android:background="@drawable/backgroud"
+    >
+
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="@string/name_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/username" />
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="welcomeGameHandler"
+        android:text="@string/start_game" />
+
+</LinearLayout>

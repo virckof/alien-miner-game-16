@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" 
+    android:gravity="center"
+    android:background="@drawable/backgroud"
+    >
+    
+     <TextView
+        android:id="@+id/totalScoreText"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/totalScore"
+     >
+
+ 
+    </TextView>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="endOfGameHandler"
+        android:text="@string/new_game"
+    />
+     
+    <Button
+        android:id="@+id/saveDevice"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:onClick="endOfGameHandler"
+        android:text="@string/score_save"
+    />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:onClick="endOfGameHandler"
+        android:text="@string/close"
+     />
+
+</LinearLayout>
