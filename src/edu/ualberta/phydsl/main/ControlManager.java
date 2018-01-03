@@ -48,7 +48,7 @@ public class ControlManager implements Observer {
 		}
 	}
 
-	// updayes the event manager to register control events for
+	// updates the event manager to register control events for
 	// analytics purposes
 	public void update(Observable o, Object pl) {
 		ArrayList<EventVO> payload = (ArrayList<EventVO>) pl;
